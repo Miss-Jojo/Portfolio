@@ -9,3 +9,9 @@ body {
   background: #080808;
   color: #ffffff;
 }
+#header {
+  height: 100vh;
+  width: 100%;
+  /* background-image: ; */
+  /*background-size*/
+}
