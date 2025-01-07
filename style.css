@@ -56,7 +56,23 @@ nav ul li a {
   bottom: -6px; 
 }*/
 
+@keyframes zoomIn {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.5);
+  }
+}
+
 nav ul li a:hover {
   /* text-decoration-color: #c36b5c; */
   color: #ff6347;
+
+  display: inline-block;
+  animation: zoomIn 0.5s ease;
+}
+nav ul li a::after {
+  scale: 1.5;
 }
