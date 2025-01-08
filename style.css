@@ -7,7 +7,7 @@
 
 body {
   background: #080808;
-  color: #ffffff;
+  color: #000000;
 }
 #header {
   height: 100vh;
@@ -74,4 +74,18 @@ nav ul li a:hover {
   display: inline-block;
   animation: zoomIn 0.2s ease;
   transform: scale(1.4);
+}
+
+.header-text {
+  padding-left: 110px;
+  margin-top: 20%;
+  font-size: 30px;
+}
+
+.header-text h1 {
+  font-size: 60px;
+  margin-top: 20px;
+}
+.header-text h1 span {
+  color: #f13c1c;
 }
