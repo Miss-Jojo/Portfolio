@@ -89,3 +89,8 @@ nav ul li a:hover {
 .header-text h1 span {
   color: #f13c1c;
 }
+.about-me {
+  background-color: #00000054;
+  height: 100px;
+  color: antiquewhite;
+}
